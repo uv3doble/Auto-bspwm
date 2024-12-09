@@ -42,3 +42,82 @@ Este proyecto proporciona un script y un conjunto de configuraciones para automa
 - Tras la ejecución del script, es recomendable cerrar sesión y volver a iniciarla para que todos los cambios surtan efecto (debes iniciar el sistema como BSPWM).
 - Si deseas personalizar aún más las configuraciones, revisa los archivos `.zshrc`, `.p10k.zsh`, `bspwmrc`, `sxhkdrc` y la carpeta `polybar` para ajustarlos según tus necesidades.
 
+# Guía de Atajos para BSPWM y Kitty
+
+Este documento detalla los atajos de teclado más útiles para gestionar ventanas y terminales en un entorno configurado con **BSPWM** y **Kitty**. Estos atajos están diseñados para maximizar la productividad y la facilidad de uso.
+
+Muchos de estos comandos no los utilizo, tendras que modificar el sxhkdrc para definir los atajos que mas te convengan
+
+## BSPWM
+
+### Manejo de Ventanas
+
+| Acción                                   | Atajo                              |
+|------------------------------------------|------------------------------------|                        |
+| Redimensionar la ventana actual          | `Windows + Shift + R`              |          |
+| Mover la ventana a otra posición/monitor | `Windows + Shift + ← o →`          |
+| Desactivar el modo flotante de la ventana| `Windows + T`                      |
+| Activar el modo flotante para la ventana | `Windows + S`                      |
+| Arrastrar y mover la ventana flotante    | `Windows + Click Izquierdo`        |
+| Redimensionar la ventana flotante        | `Windows + Click Derecho`          |
+| Maximizar la ventana actual              | `Windows + F`                      |
+| Cerrar la ventana activa                 | `Windows + Q`                      |
+| Reiniciar BSPWM para aplicar nuevas configuraciones | `Windows + Shift + Q`             |
+
+### Navegación
+
+| Acción                                   | Atajo                              |
+|------------------------------------------|------------------------------------|
+| Cambiar el enfoque entre ventanas abiertas | `Windows + ↑, ↓, ←, →`             |
+| Cambiar al espacio de trabajo correspondiente | `Windows + Números`              |
+| Mover la ventana activa al espacio de trabajo seleccionado | `Windows + Shift + Números`     |
+
+### Seguridad
+
+| Acción                                   | Atajo                              |
+|------------------------------------------|------------------------------------|
+| Desbloquear la pantalla                  | `Windows + Control + Shift + Espacio` |
+| Bloquear la pantalla                     | `Windows + Shift + X`              |
+| Restablecer todas las configuraciones de BSPWM | `Windows + Escape`              |
+
+### Lanzadores
+
+| Acción                                   | Atajo                              |
+|------------------------------------------|------------------------------------|
+| Abrir Rofi (lanzador de aplicaciones)    | `Windows + D`                      |
+| Abrir el navegador Firefox               | `Windows + Shift + F`              |
+| Reiniciar el sistema                     | `Windows + Shift + Q`              |
+
+---
+
+## Kitty
+
+### Manejo de Terminal
+
+| Acción                                   | Atajo                              |
+|------------------------------------------|------------------------------------|
+| Abrir una nueva ventana de terminal      | ` Shift + Enter`                   |
+| Abrir una nueva pestaña                  | `Control + Shift + T`              |
+| Cambiar el nombre de la pestaña actual   | `Control + Shift + Alt + T`        |
+| Mover la pestaña actual                  | `Control + Shift + .`              |
+| Cerrar la pestaña actual                 | `Control + Shift + W`              |
+| Alternar el panel actual entre superior e inferior | `Control + Shift + F`    |
+
+### Navegación y Edición
+
+| Acción                                   | Atajo                              |
+|------------------------------------------|------------------------------------|
+| Moverse entre los paneles de la terminal | `Control + Shift + ↑, ↓, ←, →`     |
+| Redimensionar la ventana de la terminal  | `Control + Shift + R`              |
+| Hacer zoom en la ventana actual de la terminal | `Control + Shift + Z`           |
+| Copiar texto seleccionado                | `Control + Shift + C`              |
+| Pegar texto copiado                      | `Control + Shift + V`              |
+
+### Preselector
+
+| Acción                                   | Atajo                              |
+|------------------------------------------|------------------------------------|
+| Activar la herramienta Preselector       | `Control + Shift + Alt + T`        |
+| Mover el Preselector                     | `Control + Windows + Alt + ↑, ↓, ←, →` |
+| Ajustar el tamaño del Preselector        | `Control + Windows + Números`      |
+
