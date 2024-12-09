@@ -12,6 +12,9 @@ Este proyecto proporciona un script y un conjunto de configuraciones para automa
 - **Herramientas adicionales (bat, lsd, feh, imagemagick, etc.)**: Para mejorar la productividad y la integración con el sistema.
 - **Archivos de configuración personalizados (bspwmrc, sxhkdrc, .zshrc, .p10k.zsh, scripts para polybar, etc.)**: Ajustados para tu entorno, pero adaptables a cualquier usuario gracias al uso de `$HOME` en vez de nombres de usuario fijos.
 
+
+![image](https://github.com/user-attachments/assets/662ef00c-4832-48ff-af70-2119e5f6f482)
+
 ## ¿Cómo funciona?
 
 1. **Ejecución del script**:  
@@ -22,6 +25,8 @@ Este proyecto proporciona un script y un conjunto de configuraciones para automa
 
 3. **Despliegue rápido del entorno**:  
    El script instalará las dependencias, copiará las configuraciones, ajustará permisos y ubicará todos los archivos necesarios para tener tu entorno en funcionamiento de inmediato, con la misma apariencia y funcionalidades que el entorno original.
+
+![image](https://github.com/user-attachments/assets/eea77b5c-afdf-4903-a4e2-29abac3a57d0)
 
 ## Requisitos
 
