@@ -26,7 +26,8 @@ Este proyecto proporciona un script y un conjunto de configuraciones para automa
 3. **Despliegue rápido del entorno**:  
    El script instalará las dependencias, copiará las configuraciones, ajustará permisos y ubicará todos los archivos necesarios para tener tu entorno en funcionamiento de inmediato, con la misma apariencia y funcionalidades que el entorno original.
 
-![image](https://github.com/user-attachments/assets/eea77b5c-afdf-4903-a4e2-29abac3a57d0)
+![image](https://github.com/user-attachments/assets/66130b4e-23b5-42eb-8a09-50c6eae45a8d)
+
 
 ## Requisitos
 
@@ -34,12 +35,10 @@ Este proyecto proporciona un script y un conjunto de configuraciones para automa
 - **Acceso a sudo**: Para la instalación de paquetes y ajustes del sistema.
 - **Conexión a Internet**: Para clonar repositorios y descargar dependencias.
 
+![image](https://github.com/user-attachments/assets/ff2e51ca-40b9-4f55-b082-686d7a6530f1)
+
 ## Notas adicionales
 
-- Tras la ejecución del script, es recomendable cerrar sesión y volver a iniciarla para que todos los cambios surtan efecto (especialmente en el shell, BSPWM y Powerlevel10k).
+- Tras la ejecución del script, es recomendable cerrar sesión y volver a iniciarla para que todos los cambios surtan efecto (debes iniciar el sistema como BSPWM).
 - Si deseas personalizar aún más las configuraciones, revisa los archivos `.zshrc`, `.p10k.zsh`, `bspwmrc`, `sxhkdrc` y la carpeta `polybar` para ajustarlos según tus necesidades.
-
-## Licencia
-
-Este proyecto se distribuye bajo la [licencia que decidas agregar], por lo que puedes modificarlo y adaptarlo a tu gusto.
 
