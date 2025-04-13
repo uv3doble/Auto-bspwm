@@ -2,6 +2,9 @@
 
 Este proyecto proporciona un script y un conjunto de configuraciones para automatizar la instalación y configuración de un entorno de trabajo personalizado sobre Parrot OS. La idea es simplificar el despliegue de herramientas, gestores de ventanas, terminales, fuentes y otros elementos, de modo que, con un solo comando, puedas replicar tu entorno en cualquier máquina sin necesidad de configurarlo manualmente cada vez.
 
+ejecuta sin root, te pedirá root para las acciones que solo lo requieran
+./auto-script.sh
+
 ## ¿Qué se instala y configura?
 
 - **BSPWM y SXHKD**: Un gestor de ventanas dinámico y su demonio de atajos de teclado.
